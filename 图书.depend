@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1677410479 source:g:\源码\c++\图书管理系统\book.cpp
+	"book.h"
+
+1677411392 g:\源码\c++\图书管理系统\book.h
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<deque>
+	<list>
+	<utility>
+
+1677412466 source:g:\源码\c++\图书管理系统\book_list.cpp
+	"book_list.h"
+
+1677408867 g:\源码\c++\图书管理系统\book_list.h
+	"book.h"
+
+1677409045 source:g:\源码\c++\图书管理系统\main.cpp
+	"book_list.h"
+	"head.h"
+
+1677397388 g:\源码\c++\图书管理系统\head.h
+	<iostream>
+	<cstdlib>
+	<string>
+	<vector>
+	<string.h>
+	<math.h>
+	<cstdlib>
+	<windows.h>
+
