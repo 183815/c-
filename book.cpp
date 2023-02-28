@@ -13,13 +13,13 @@ void book::set_status()
 {
 	switch (status)
 	{
-	case 0:status_out = "½è³ö";
+	case 0:status_out = "å€Ÿå‡º";
 		break;
-	case 1:status_out = "ÔÚ¹İ";
+	case 1:status_out = "åœ¨é¦†";
 		break;
-	case 2:status_out = "ÒÅÊ§";
+	case 2:status_out = "é—å¤±";
 		break;
-	default:status_out = "´íÎó";
+	default:status_out = "é”™è¯¯";
 		break;
 	}
 }

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,8 +38,12 @@
 		<Unit filename="book.h" />
 		<Unit filename="book_list.cpp" />
 		<Unit filename="book_list.h" />
+		<Unit filename="config.cpp" />
+		<Unit filename="config.h" />
 		<Unit filename="head.h" />
+		<Unit filename="include/conf.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/conf.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

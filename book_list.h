@@ -4,14 +4,21 @@
 class book_list
 {
 public:
+    book_list();
+    ~book_list();
 	list<book> bk_ls;
-	//½«²éÑ¯½á¹ûºÍÖ¸Õë·â×°Îªpair²¢·µ»Ø
+	//å°†æŸ¥è¯¢ç»“æœå’ŒæŒ‡é’ˆå°è£…ä¸ºpairå¹¶è¿”å›
 	pair<int, list<book>::iterator> search(string bk_name,string bk_id);
+	void book_show();
 	void book_search();
 	void book_add();
+	void book_alter();
 	void book_borrow();
 	void book_return();
-	void book_lost();
-	void book_save();
-	//void book_read();
+	void book_lost_find();
+//æœ¬åœ°åŒ–æ“ä½œ
+	void add_book(book bk);
+	void alter_book();
+	void alter_status(list<book>::iterator bk_it,int status);
+	void book_read();
 };

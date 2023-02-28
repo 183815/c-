@@ -7,9 +7,11 @@ void QT()
 {
     char choice;
     book_list bk_list;
+    config conf;
     while(true){
     system("cls");
-    cout <<"0.ÍË³ö\n" << "1.²éÑ¯\n" << "2.Ìí¼Ó\n" << "3.½èÊé\n" << "4.»¹Êé\n" << "5.¶ªÊ§±¨±¸\n" << "ÇëÊäÈë²Ù×÷:" ;
+    bk_list.book_show();
+    cout <<"0.é€€å‡º\n" << "1.æŸ¥è¯¢\n" << "2.æ·»åŠ \n" << "3.å€Ÿä¹¦\n" << "4.è¿˜ä¹¦\n" << "5.æŠ¥å¤‡\n"<<"6.ä¿®æ”¹\n" << "è¯·è¾“å…¥æ“ä½œ:" ;
     cin >> choice;
     switch (choice)
     {
@@ -23,9 +25,11 @@ void QT()
         break;
     case '4':bk_list.book_return();
         break;
-    case '5':bk_list.book_lost();
+    case '5':bk_list.book_lost_find();
         break;
-    default:
+    case '6':bk_list.book_alter();
+        break;
+    default:cout<<"è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥!"<<endl;
         break;
     }
     system("pause");

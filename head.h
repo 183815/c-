@@ -9,6 +9,17 @@
 #include <math.h>
 #include <cstdlib>
 #include <windows.h>
+#include <fstream>
+#include <deque>
+#include <list>
+#include <utility>
+#include <stdlib.h>
+#include <bits/stdc++.h>
 using namespace std;
 
+#include "config.h"
+
 #endif // HEAD_H_INCLUDED
+
+
+

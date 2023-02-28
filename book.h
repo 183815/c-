@@ -1,11 +1,5 @@
 #pragma once
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <vector>
-#include <deque>
-#include <list>
-#include <utility>
+#include "head.h"
 using namespace std;
 class book
 {
@@ -13,10 +7,10 @@ public:
 	book();
 	~book();
 	void set_status();
+    string id ;
 	string name;
-	string id ;
-	//×´Ì¬:0->½è³ö;1->ÔÚ¹Ý(Ä¬ÈÏ);2->ÒÅÊ§
+    double price=0;
+	//0->å€Ÿå‡º;1->åœ¨é¦†;2->é—å¤±;3->é”™è¯¯
 	int status=1;
 	string status_out;
-	double price;
 };
